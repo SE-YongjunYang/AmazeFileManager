@@ -1,0 +1,15 @@
+16:13:56.134  E  [AsyncTask #12       ] Got exception
+                 checkout: /storage/emulated/0/Download/leakcanary-com.amaze.filemanager.debug/2023-12-15_07-43-52_660.hprofjava.lang.NullPointerException: Attempt to invoke virtual
+                 method 'android.net.Uri androidx.documentfile.provider.DocumentFile.getUri()' on a null object reference
+                 	at com.amaze.filemanager.filesystem.files.GenericCopyUtil.startCopy(GenericCopyUtil.java:166)
+                 	at com.amaze.filemanager.filesystem.files.GenericCopyUtil.copy(GenericCopyUtil.java:316)
+                 	at com.amaze.filemanager.asynchronous.services.CopyService$DoInBackground$Copy.copyFiles(CopyService.java:520)
+                 	at com.amaze.filemanager.asynchronous.services.CopyService$DoInBackground$Copy.execute(CopyService.java:406)
+                 	at com.amaze.filemanager.asynchronous.services.CopyService$DoInBackground.doInBackground(CopyService.java:270)
+                 	at com.amaze.filemanager.asynchronous.services.CopyService$DoInBackground.doInBackground(CopyService.java:237)
+                 	at android.os.AsyncTask$2.call(AsyncTask.java:305)
+                 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+                 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:243)
+                 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+                 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+                 	at java.lang.Thread.run(Thread.java:761)
